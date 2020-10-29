@@ -1,0 +1,197 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+	background-color: black;
+	color: white;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/*Navbar*/
+nav {
+	background-color: black;
+}
+/*Navbar*/
+
+/*Welcome*/
+.welcome {
+	margin-top: -14vh;
+	height: 95vh;
+	padding: 5vh;
+}
+.welcome h1 {
+	font-weight: bolder;
+	font-size: 31px;
+	margin-top: -1vh;
+}
+.welcome h4 {
+	margin-top: 40vh;
+	font-size: 27px;
+}
+.welcome h5 {
+	margin-top: -1vh;
+	font-size: 16px;
+}
+.welcome h6 {
+	margin-top: -2vh;
+	font-size: 16px;
+}
+/*welcome*/
+/*About*/
+.about {
+	padding: 1px;
+	text-align: center;
+}
+
+/*Utility*/
+.navbar-fix {
+	position: fixed;
+	top: 0;
+	background-color: unset;
+	border: unset;
+}
+.social-btn {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	margin-top: 80%;
+	margin-left: 1%;
+}
+.social-icon {
+	width: 35px;
+	height: auto;
+	transition: 0.5s;
+	margin-bottom: 5px;
+}
+.social-icon:hover {
+	width: 48px;
+}
+
+.btn-1 {
+	text-transform: unset;
+	background-color: grey;
+	border: white 5px;
+	border-radius: 50px;
+}
+.btn-2 {
+	text-transform: unset;
+	border: white 5px;
+	border-radius: 50px;
+}
+.bar {
+	padding-left: 15px;
+	margin-top: 10px;
+	color: black;
+	width: 10%;
+	height: 25px;
+	background-color: white;
+}
+/*Skill*/
+	.persona {
+		margin-top: -1px;
+	}
+	.skill-right {
+		margin-top: 2vh;
+	}
+	.skill-card {
+		width: 100px;
+		height: 120px;
+		padding-top: 150px;
+		font-size: 10px;
+		padding: unset;
+	}
+
+.portfolio-card {
+	width: 40%;
+	height: 300px;
+}
+
+/*Utility*/
+
+/*// Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) {
+	.container {
+		position: relative;
+	}
+	.social-btn {
+		position: fixed;
+		top: 0;
+		z-index: 10;
+		margin-top: 18%;
+		margin-left: 1%;
+	}
+	/*Welcome*/
+	.welcome {
+		background-image: url(../assets/bg.jpg);
+		background-size: cover;
+		margin-top: -1vh;
+		height: 90vh;
+		padding: 30vh;
+	}
+	.welcome h1 {
+		font-weight: bolder;
+		font-size: 64px;
+		margin-top: -1vh;
+	}
+	.welcome h4 {
+		margin-top: 1vh;
+	}
+	.welcome h5 {
+		margin-top: -1vh;
+		font-size: 25px;
+	}
+	.welcome h6 {
+		margin-top: -2vh;
+		font-size: 25px;
+	}
+	.btn-2 {
+		margin-left: 20px;
+	}
+	/*welcome*/
+
+	/*About*/
+	.about {
+		margin-bottom: 15vh;
+		text-align: right;
+	}
+	.about-right {
+		width: 71% !important;
+		display: flex;
+		position: absolute;
+		right: 0;
+	}
+	.skill-left {
+		width: 50% !important;
+		display: flex;
+		position: absolute;
+		left: 0;
+	}
+	.skill-right {
+		width: 50% !important;
+		display: flex;
+		position: absolute;
+		right: 0;
+		margin-top: unset;
+	}
+	.skill-card {
+		width: 200px;
+		height: 120px;
+		padding-top: 33px;
+	}
+	.persona {
+		width: 95%;
+	}
+	.portfolio {
+		margin-top: 25vh;
+		text-align: center;
+	}
+}
